@@ -1,0 +1,51 @@
+[RandomForest]
+n_estimators = 300
+max_depth = 20
+min_samples_split = 2
+min_samples_leaf = 1
+random_state = 42
+
+[AdaBoost]
+n_estimators = 200
+learning_rate = 0.5
+
+[GradientBoosting]
+n_estimators = 200
+learning_rate = 0.05
+max_depth = 20
+min_samples_split = 10
+min_samples_leaf = 5
+
+[KNeighbors]
+n_neighbors = 8
+algorithm = 'auto'
+
+[SVC]
+kernel = 'rbf'
+gamma = 'scale'
+
+[DecisionTree]
+max_depth = 15
+min_samples_split = 5
+min_samples_leaf = 2
+
+[LogisticRegression]
+max_iter = 200
+penalty = l2
+
+[NaiveBayes]
+var_smoothing = 1e-9
+
+[NeuralNetwork]
+hidden_layer_sizes = 100, 100, 100, 100
+max_iter = 800
+learning_rate_init = 0.001
+alpha = 0.0001
+
+[XGBoost]
+use_label_encoder = False
+eval_metric = logloss
+n_estimators = 500
+learning_rate = 0.05
+max_depth = 8
+subsample = 0.8

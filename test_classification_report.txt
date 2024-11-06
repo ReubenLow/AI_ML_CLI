@@ -1,0 +1,8 @@
+                       precision    recall  f1-score   support
+
+Predicted Not Survive       0.76      0.93      0.84       146
+    Predicted Survive       0.84      0.56      0.67        95
+
+             accuracy                           0.78       241
+            macro avg       0.80      0.74      0.76       241
+         weighted avg       0.79      0.78      0.77       241

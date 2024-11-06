@@ -1,0 +1,12 @@
+[MODEL_PARAMS]
+n_estimators = 100
+max_depth = 8
+min_samples_split = 2
+min_samples_leaf = 1
+random_state = 42
+
+# Paths
+TRAIN_DATA = /mnt/x/coding/Year 3 ML_AI/Bin FILE VER/MS_1_Scenario_train.csv
+TEST_DATA = /mnt/x/coding/Year 3 ML_AI/Bin FILE VER/MS_1_Scenario_test.csv
+EDA_OUTPUT = /mnt/x/coding/Year 3 ML_AI/Bin FILE VER/eda_outputs
+MODEL_OUTPUT = /mnt/x/coding/Year 3 ML_AI/Bin FILE VER/random_forest_model.pkl

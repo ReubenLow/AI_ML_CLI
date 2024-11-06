@@ -1,0 +1,6 @@
+Model Trained with Encoding=True | Features=['Passenger Fare', 'Ticket Class', 'Embarkation Country', 'Age', 'Gender', 'NumSiblingSpouse', 'NumParentChild']
+Model saved to model_with_encoding.pkl
+
+Model Trained with Encoding=True | Features=['Passenger Fare', 'Ticket Class', 'Embarkation Country', 'Age', 'Gender', 'NumSiblingSpouse', 'NumParentChild']
+Model saved to model_without_encoding.pkl
+
